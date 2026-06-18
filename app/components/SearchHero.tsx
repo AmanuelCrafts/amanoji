@@ -128,7 +128,7 @@ export default function SearchHero() {
             <span>{'\uD83C\uDFAC'}</span> Watch Anything <span>{'\uD83D\uDD25'}</span>
           </h1>
           <p className="hero-sub" style={{ display: hasSearched ? 'none' : '' }}>
-            Search movies &amp; TV shows &mdash; Thank me Later!
+            {'\uD83D\uDD0D'} Search \u2192 {'\uD83D\uDCB5'} Click \u2192 {'\uD83D\uDCFA'} Stream. No sign-up, no ads, no BS.
           </p>
 
           <div className="hero-search" role="search">
