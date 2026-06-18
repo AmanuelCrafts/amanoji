@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Analytics } from '@vercel/analytics/next';
+import EmojiRenderer from './components/EmojiRenderer';
 
 const siteUrl = 'https://amanoji.vercel.app';
 const siteName = 'Amanoji';
@@ -61,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6168141382402894" crossOrigin="anonymous" />
       </head>
-      <body>{children}</body>
+      <body><EmojiRenderer>{children}</EmojiRenderer></body>
       <Analytics />
     </html>
   );
