@@ -5,7 +5,7 @@ import EmojiRenderer from './components/EmojiRenderer';
 
 const siteUrl = 'https://amanoji.vercel.app';
 const siteName = 'Amanoji';
-const description = '\uD83C\uDFAC Search and stream movies & TV shows instantly. No sign-up, no ads, no BS. \uD83D\uDD0D\u2192\uD83D\uDCB5\u2192\uD83D\uDCFA';
+const description = 'Search and stream movies & TV shows instantly. Free, fast, no sign-up.';
 
 export const metadata: Metadata = {
   title: {
