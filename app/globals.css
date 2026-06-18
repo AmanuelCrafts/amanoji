@@ -113,11 +113,6 @@ button{cursor:pointer;font-family:inherit}
   .player-close{top:8px;right:12px;font-size:1.6rem}
 }
 
-/* Ad containers */
-.ad-container{width:100%;overflow:hidden;text-align:center;min-height:90px;display:flex;align-items:center;justify-content:center;margin:20px 0;background:var(--bg-card);border:1px dashed var(--border);border-radius:8px;padding:8px;color:var(--text-muted);font-size:0.75rem}
-.ad-container.ad-leaderboard{min-height:250px}
-.ad-container .adsbygoogle{min-height:90px}
-
 /* Footer */
 .footer{padding:20px;text-align:center;color:var(--text-muted);font-size:clamp(0.75rem,2vw,0.85rem);border-top:1px solid var(--border)}
 .footer span{color:var(--accent)}

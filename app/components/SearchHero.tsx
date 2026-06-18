@@ -154,15 +154,6 @@ export default function SearchHero() {
                 {'\uD83D\uDD0D'} Results for &ldquo;{query}&rdquo;
               </h2>
 
-              <div className="ad-container">
-                <ins className="adsbygoogle"
-                  style={{ display: 'block' }}
-                  data-ad-client="ca-pub-6168141382402894"
-                  data-ad-slot="YOUR_SLOT_ID"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true" />
-              </div>
-
               <div className="results-grid" role="list">
                 {results.map((item, i) => {
                   const title = item.media_type === 'movie' ? item.title : item.name;
@@ -204,14 +195,6 @@ export default function SearchHero() {
                 })}
               </div>
 
-              <div className="ad-container ad-leaderboard">
-                <ins className="adsbygoogle"
-                  style={{ display: 'block' }}
-                  data-ad-client="ca-pub-6168141382402894"
-                  data-ad-slot="YOUR_SLOT_ID"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true" />
-              </div>
             </>
           )}
 
