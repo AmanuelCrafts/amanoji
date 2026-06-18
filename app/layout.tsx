@@ -62,8 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6168141382402894" crossOrigin="anonymous" />
       </head>
-      <body><EmojiRenderer>{children}</EmojiRenderer></body>
-      <Analytics />
+      <body><EmojiRenderer>{children}</EmojiRenderer><Analytics /></body>
     </html>
   );
 }

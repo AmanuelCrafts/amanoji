@@ -1,16 +1,14 @@
 'use client';
 
-export default function Navbar({ onLogoClick }: { onLogoClick: () => void }) {
+import Link from 'next/link';
+
+export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-inner">
-        <a
-          href="#"
-          className="logo"
-          onClick={(e) => { e.preventDefault(); onLogoClick(); }}
-        >
+        <Link href="/" className="logo">
           <span>Aman</span>oji
-        </a>
+        </Link>
       </div>
     </nav>
   );

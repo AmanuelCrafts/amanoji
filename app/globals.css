@@ -15,6 +15,10 @@ button{cursor:pointer;font-family:inherit}
 .logo{font-size:1rem;font-weight:700;white-space:nowrap}
 .logo span{color:var(--accent)}
 
+.caption{
+  font-weight: bold;
+}
+
 /* Hero */
 .hero{min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:80px 20px 40px;background:radial-gradient(ellipse at 50% 30%,rgba(128,128,207,0.06),transparent 60%),var(--bg)}
 .hero.has-results{align-items:flex-start;padding-top:40px;min-height:auto}
