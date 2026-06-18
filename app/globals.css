@@ -1,7 +1,7 @@
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#080808;--bg-card:#181818;--accent:#8080cf;--accent-hover:#595991;--text:#e8e8e8;--text-secondary:#999;--text-muted:#696969;--border:#333;--radius:0.3rem;--transition:0.2s ease}
 html{scroll-behavior:smooth}
-body{font-family:ui-sans-serif,system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji",ui-sans-serif,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 ::-webkit-scrollbar{width:5px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:#555;border-radius:4px}
